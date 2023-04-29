@@ -1,0 +1,20 @@
+﻿Variable,Value
+VAL_A,99950
+VAL_A,80001
+VAL_A,83201
+VAL_A,60001
+VAL_A,46001
+VAL_PLACEHOLDER,"//*[contains(@placeholder, 'Enter city, state or ZIP code')]"
+VAL_SUBMIT,"//*[contains(@class, 'store-dropdown')]//button"
+BASE,https://www.walgreens.com
+RELATIVE,/findcare/category/covid-19
+PARENT_XPATH,"//*[contains(@class, 'store-dropdown')]//li"
+CHILD_NAME,HOWARD
+CHILD_XPATH,./div/div[1]
+CHILD_NAME,SAVVAS
+CHILD_XPATH,./div/div[2]
+CHILD_NAME,MUSA
+CHILD_XPATH,".//*[contains(@id, 'store-working-hours')]"
+CHILD_NAME,GEORGE
+CHILD_XPATH,".//*[contains(@id, 'rx-working-hours')]"
+CLICK_ON_ITEM,//*[@class='nudge-container']/*[@role='button']//span[@class='icon icon__arrow-down']
