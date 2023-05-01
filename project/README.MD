@@ -38,13 +38,13 @@ The requirements to be installed if using python 3.8.
 
 
 ## Running Files
- - Install requirements: python -m pip install -r requirements_py3.6.txt
- - Run entire flow: python main.py
+ - Install requirements: `python -m pip install -r requirements_py3.6.txt`
+ - Run entire flow: `python main.py`
  This is the main function which imports the dataset, performs EDA and feature engineering,
  trains the models and produces classification reports, feature importances and ROC-AUC score as images.
  If you want to skip the training process and just load the already trained models, comment line 25 in 
  main.py file.
- - Run test: pytest churn_script_logging_and_tests.py -v
+ - Run test: `pytest churn_script_logging_and_tests.py -v`
  By running this command, you will get an analytic report with the tests conducted
  and whether they have passed or failed. The log file in logs folder contains the specifics for test failures and successes.
 
